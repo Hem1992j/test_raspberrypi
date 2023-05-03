@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "number_publisher = test_raspberrrypi.pub:main",
+            "number_publisher = test_raspberrypi.pub:main",
             "number_counter = test_raspberrypi.cont:main"
         ],
     },
